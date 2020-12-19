@@ -6,6 +6,6 @@
   "description": "Automatically build mining outposts.\nDependencies: PlannerCore",
   "factorio_version": "1.1",
   "dependencies": ["base >= 1.1.6",
-    "PlannerCore >= 0.2.3",
+    "PlannerCore >= 0.2.4",
     "! Cursed-FMD"]
 }
