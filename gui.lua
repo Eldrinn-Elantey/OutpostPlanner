@@ -1,4 +1,4 @@
-require("mod-gui")
+local mod_gui = require("mod-gui")
 require("util")
 require("on_init")
 require("example_blueprints")
