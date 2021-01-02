@@ -3,7 +3,7 @@ data:extend(
         {
             type = "selection-tool",
             name = "outpost-builder",
-            icon = "__OutpostPlanner1.1__/graphics/outpost-builder.png",
+            icon = "__OutpostPlanner1-1__/graphics/outpost-builder.png",
             icon_size = 32,
             selection_color = {r = 1.0, g = 0.55, b = 0.0, a = 0.2},
             alt_selection_color = {r = 1.0, g = 0.2, b = 0.0, a = 0.2},
@@ -27,7 +27,7 @@ data:extend(
         {
             type = "sprite",
             name = "miner-blueprint",
-            filename = "__OutpostPlanner1.1__/graphics/miner-blueprint.png",
+            filename = "__OutpostPlanner1-1__/graphics/miner-blueprint.png",
             width = 32,
             height = 32
         }
