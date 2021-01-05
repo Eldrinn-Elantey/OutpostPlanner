@@ -3,7 +3,7 @@ data:extend(
         {
             type = "selection-tool",
             name = "outpost-builder",
-            icon = "__OutpostPlanner__/graphics/outpost-builder.png",
+            icon = "__OutpostPlanner1-1__/graphics/outpost-builder.png",
             icon_size = 32,
             selection_color = {r = 1.0, g = 0.55, b = 0.0, a = 0.2},
             alt_selection_color = {r = 1.0, g = 0.2, b = 0.0, a = 0.2},
@@ -19,9 +19,18 @@ data:extend(
             stack_size = 1
         },
         {
+            type = "recipe",
+            name = "outpost-builder",
+            enabled = true,
+            energy_required = 0.1,
+            category = "crafting",
+            ingredients = {},
+            result = "outpost-builder"
+        },
+        {
             type = "sprite",
             name = "miner-blueprint",
-            filename = "__OutpostPlanner__/graphics/miner-blueprint.png",
+            filename = "__OutpostPlanner1-1__/graphics/miner-blueprint.png",
             width = 32,
             height = 32
         },
@@ -36,7 +45,7 @@ data:extend(
       			style = "blue",
       			icon =
       			{
-        				filename = "__OutpostPlanner__/graphics/outpost-builder-x32-white.png",
+        				filename = "__OutpostPlanner1-1__/graphics/outpost-builder-x32-white.png",
         				priority = "extra-high-no-scale",
         				size = 32,
         				scale = 0.5,
@@ -44,7 +53,7 @@ data:extend(
       			},
       			small_icon =
       			{
-        				filename = "__OutpostPlanner__/graphics/outpost-builder-x24-white.png",
+        				filename = "__OutpostPlanner1-1__/graphics/outpost-builder-x24-white.png",
         				priority = "extra-high-no-scale",
         				size = 24,
         				scale = 0.5,
