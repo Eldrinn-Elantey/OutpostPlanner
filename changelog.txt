@@ -178,14 +178,22 @@ Date: 2020-01-27
     - Add Cursed-FMD to list of incompatible mods
 
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.6
-Date: 2020-12-19
+Version: 1.2.0
+Date: 2021-01-02
+  Features:
+    - Updated for 1.1
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2021-01-02
+  Bugfixes:
+  - Added patch for placement bug by erkle64
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 2021-01-05
   Features:
     - Added a shortcut and custom input (default SHIFT + O)
   Changes:
-    - Updated for 1.1
     - Added changelog
-    - Only resources can be selected now
-  Bugfixes:
-    - Fixed gui.lua to account for changes in 0.18.41 (thx Erkle64 and Viiu)
-    - Fixed gui.lua to account for changes in 1.1.0 (thx xfir01)
+    - Only resource entities can be selected now
