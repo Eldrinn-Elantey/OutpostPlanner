@@ -19,15 +19,6 @@ data:extend(
         stack_size = 1
     },
     {
-        type = "recipe",
-        name = "outpost-builder",
-        enabled = true,
-        energy_required = 0.1,
-        category = "crafting",
-        ingredients = {},
-        result = "outpost-builder"
-    },
-    {
         type = "sprite",
         name = "miner-blueprint",
         filename = "__OutpostPlanner1-1__/graphics/miner-blueprint.png",
