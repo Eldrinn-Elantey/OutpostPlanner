@@ -187,13 +187,15 @@ Date: 2021-01-02
 Version: 1.2.1
 Date: 2021-01-02
   Bugfixes:
-  - Added patch for placement bug by erkle64
+    - Added patch for placement bug by erkle64
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.2
-Date: 2021-01-05
+Date: 2021-02-28
   Features:
     - Added a shortcut and custom input (default SHIFT + O)
   Changes:
     - Added changelog
     - Only resource entities can be selected now
+    - Removed recipe + crafted item to free up inventory space; use the shortcut instead.
+
