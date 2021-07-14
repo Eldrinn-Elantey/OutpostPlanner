@@ -199,3 +199,8 @@ Date: 2021-02-28
     - Only resource entities can be selected now
     - Removed recipe + crafted item to free up inventory space; use the shortcut instead.
 
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 2021-07-13
+  Bugfixes:
+    - Fixed "attempt to index global 'state'" crash when using modules and changing the miner.
